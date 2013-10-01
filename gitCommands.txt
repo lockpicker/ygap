@@ -1,0 +1,24 @@
+Basics
+
+- Opt in not opt out
+- local repo maintains all changes
+
+
+Download git from 
+    http://git-scm.com/download
+
+User Config
+	git config --global user.name "Insert Name"
+	git config --global user.email "user@email.com"
+
+List git config options
+	git config --list
+
+Useful git commands
+	<git remote add origin https://github.com/lockpicker/ygap.git>
+	git add
+	git commit -m "message"
+	git log
+	git log --stat
+	git log --stat=1.hour.ago
+	git push -u origin master
